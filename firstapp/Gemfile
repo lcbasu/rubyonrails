@@ -41,3 +41,6 @@ gem 'spring',        group: :development
 # ruby version
 ruby "2.1.2"
 
+# Heroku
+gem 'rails_12factor', group: :production
+
