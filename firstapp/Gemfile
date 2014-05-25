@@ -9,6 +9,7 @@ group :development do
 end
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
@@ -46,7 +47,3 @@ gem 'spring',        group: :development
 
 # ruby version
 ruby "2.1.2"
-
-# Heroku
-#gem 'rails_12factor', group: :production
-
